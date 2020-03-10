@@ -88,6 +88,7 @@
 				435A013923D37E6D001813B4 /* Sources */,
 				435A013A23D37E6D001813B4 /* Frameworks */,
 				435A013B23D37E6D001813B4 /* Resources */,
+				435C60FA2417D30B000F39C6 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -143,6 +144,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		435C60FA2417D30B000F39C6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mint run swiftlint \"$SRCROOT\"\nmint run swiftformat \"$SRCROOT\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		435A013923D37E6D001813B4 /* Sources */ = {
