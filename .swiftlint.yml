@@ -22,7 +22,8 @@ whitelist_rules:
   - vertical_whitespace
   - void_return
   - unused_optional_binding
-
+  - custom_rules
+  
 excluded:
   - Carthage
   - Pods
