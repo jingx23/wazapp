@@ -16,9 +16,9 @@ struct ContentView: View {
 }
 
 struct WebView: UIViewRepresentable {
-    
+
     let viewModel: WebViewViewModel
-    
+
     func makeUIView(context: Context) -> WKWebView {
         return viewModel.webView
     }
